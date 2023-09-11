@@ -333,7 +333,7 @@ now, mini-notation refers not only to colors and visual functions, but to number
 #### Speed
 
 We can use `*` and `/` operators for speed.
-nomeric expressions should be put in brackets to avoid ambiguous evaluations: `3/3` is still 1, and not the value 3 for 3 beats.
+numeric expressions should be put in brackets to avoid ambiguous evaluations: `3/3` is still 1, and not the value 3 for 3 beats.
 
 ```javascript
 // a pink triangle for the first 3 beats, then changing to a square and a triangle in the following beat
