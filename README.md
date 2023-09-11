@@ -1,6 +1,6 @@
   
 # Hydral 
-Hydral is a mini-notation for Hydra inspired by Tydal.
+Hydral is a mini-notation for [Hydra](hydra.ojack.xyz/) inspired by [Tidal mini-notation](https://tidalcycles.org/docs/reference/mini_notation/).
 
 ## Principles:
 
