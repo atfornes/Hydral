@@ -67,8 +67,13 @@ Repeat your patterns using `*` operator, and wrap your repeated patterns in brac
 As in these examples, the repetition operator `*` repeats the outermost space expression (vertical or horizontal). You can also use `|*` or `\*` for explicit vertical or horizontal repetitions:
 
 ```javascript
+// a chess board
 "[[black white]*4 \
   [white black]*4]*4"
+
+// same as: "[black white]*16 \ [white black]*16"
+"[[black white]*4 \
+  [white black]*4]|*4"
 ```
 
 Inspired by hydra, default repetitions are 3 times horizontal and 3 time vertical:
