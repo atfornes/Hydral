@@ -297,8 +297,8 @@ ce. We will use `.m` function, with the operator as the first parameter, followe
 
 ```javascript
 // Modulate repeat a pink triangle with an oscilator
-// shape(3).modulateRepeatX(noise()).out(o0)
-"s(3).c('pink').m(*,o)"
+// shape(3).color(255, 192, 203).modulateRepeatX(osc()).out(o0)
+"s(3).c(pink).m(*,o)"
 ```
 
 ### Using patterns for parameters
