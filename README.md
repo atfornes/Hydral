@@ -344,3 +344,6 @@ numeric expressions should be put in brackets to avoid ambiguous evaluations: `3
 // a pink triangle for the first 3 beats, then changing to a square and a triangle in the following beat
 "s([[3]/3,4]#).c(pink)"
 ```
+
+## Related projects[
+Hydra-strudel extension]([url](https://github.com/atfornes/Hydra-strudel-extension)https://github.com/atfornes/Hydra-strudel-extension) enables the use of tidal mini-notation, and strudel statements within hydra.
